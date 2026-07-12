@@ -53,7 +53,7 @@ export function ConsentBanner() {
         <p className="consent__txt">
           Nous utilisons des cookies de mesure d&apos;audience <strong>anonyme</strong> et de
           performance publicitaire (Google) pour améliorer le site et nos campagnes. Votre choix
-          est <strong>modifiable à tout moment</strong> — le site fonctionne dans les deux cas.
+          est <strong>modifiable à tout moment</strong> — le site fonctionne dans les deux cas.{" "}
           <a href="/confidentialite">En savoir plus</a>.
         </p>
       </div>

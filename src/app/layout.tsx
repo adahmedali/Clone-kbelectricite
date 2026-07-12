@@ -5,11 +5,11 @@ import { Footer } from "@/components/Footer";
 import { StickyCallBar } from "@/components/StickyCallBar";
 import { ConsentBanner } from "@/components/ConsentBanner";
 
-const SITE_URL = "https://www.kbelectricite.fr";
+const SITE_URL = "https://www.prosan-electricite.fr";
 const TITLE =
-  "Électricien à Toulouse — KB Électricité Générale | CFO / CFA";
+  "Électricien à Beaugency — Pro San Electricité | Automatisme & dépannage";
 const DESCRIPTION =
-  "Électricien à Toulouse : courants forts & faibles, mise en conformité NF C 15-100, bornes IRVE, éclairage LED, dépannage et maintenance. Devis gratuit.";
+  "Électricien à Beaugency (Loiret) : rénovation et mise aux normes, tableaux, éclairage, automatisme de portails, interphonie et dépannage 24h/24. Devis gratuit.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: SITE_URL,
-    siteName: "KB Électricité Générale",
+    siteName: "Pro San Electricité",
     locale: "fr_FR",
     images: ["/images/og-default.png"],
   },
